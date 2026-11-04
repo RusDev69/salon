@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+  <defs>
+    <linearGradient id="m3bg" x1="0" y1="0" x2="600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5EEE2"/><stop offset="1" stop-color="#A9C6B2"/>
+    </linearGradient>
+    <linearGradient id="m3inner" x1="300" y1="30" x2="300" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCF7"/><stop offset="1" stop-color="#D3E2D4"/>
+    </linearGradient>
+    <linearGradient id="m3skin" x1="250" y1="170" x2="350" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D8C4"/><stop offset="1" stop-color="#D3A086"/>
+    </linearGradient>
+    <filter id="m3grain" x="0" y="0" width="600" height="760">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer>
+    </filter>
+    <clipPath id="m3clip"><path d="M0 760V310C0 145 134 20 300 20C466 20 600 145 600 310V760H0Z"/></clipPath>
+  </defs>
+  <rect width="600" height="760" fill="url(#m3bg)"/>
+  <g clip-path="url(#m3clip)">
+    <rect width="600" height="760" fill="url(#m3inner)"/>
+    <circle cx="482" cy="238" r="132" fill="#FFF9EF" opacity=".46"/>
+    <path d="M0 632C138 584 236 606 330 642C436 682 530 666 600 630V760H0V632Z" fill="#B58F72" opacity=".25"/>
+    <path d="M154 760C164 638 214 550 268 522C284 543 293 557 301 570C311 557 320 543 334 522C398 550 432 638 446 760H154Z" fill="#E8D7C4"/>
+    <path d="M264 420H338V520C338 546 321 562 301 562C281 562 264 546 264 520V420Z" fill="url(#m3skin)"/>
+    <path d="M301 164C362 164 394 212 389 284C384 352 361 413 301 440C241 413 218 352 213 284C208 212 240 164 301 164Z" fill="url(#m3skin)"/>
+    <path d="M301 164C333 164 363 180 379 210C354 189 329 180 300 180C270 180 245 191 220 216C235 184 268 164 301 164Z" fill="#FAE9D9" opacity=".55"/>
+    <circle cx="301" cy="147" r="76" fill="#D3AC78"/>
+    <path d="M225 208C238 168 264 144 301 144C338 144 365 168 378 208C354 189 330 180 301 180C272 180 248 189 225 208Z" fill="#C69A64"/>
+    <path d="M210 296C202 240 216 185 260 158C296 137 348 144 379 174C398 193 407 222 409 258C391 235 374 219 355 209C320 229 268 234 233 221C220 244 213 269 210 296Z" fill="#D3AC78"/>
+    <path d="M226 292C220 336 224 377 238 402C230 372 230 339 235 312C231 348 235 379 247 400" stroke="#B98C57" stroke-width="1.5" opacity=".55"/>
+    <path d="M379 288C384 332 379 369 365 393C372 365 371 333 366 308C370 341 366 371 356 391" stroke="#B98C57" stroke-width="1.5" opacity=".55"/>
+    <path d="M251 283C264 274 280 274 291 283" stroke="#87634A" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M312 283C323 274 339 274 352 283" stroke="#87634A" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M253 307C265 297 281 297 292 307" stroke="#5E4232" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M311 307C322 297 338 297 350 307" stroke="#5E4232" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M302 299C301 326 296 346 289 356C296 362 306 362 312 357" stroke="#B47C65" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M279 382C292 374 311 374 324 382C310 393 292 393 279 382Z" fill="#B0696B"/>
+    <ellipse cx="245" cy="348" rx="20" ry="10" fill="#D28F80" opacity=".25"/>
+    <ellipse cx="357" cy="348" rx="20" ry="10" fill="#D28F80" opacity=".25"/>
+    <circle cx="215" cy="337" r="5" fill="#DCC59A"/>
+    <circle cx="388" cy="337" r="5" fill="#DCC59A"/>
+    <path d="M250 523C274 550 327 550 352 523" stroke="#B9975B" stroke-width="1.6"/>
+    <path d="M300 536L303 544L300 551L297 544L300 536Z" fill="#DCC59A"/>
+    <path d="M408 230C436 255 448 293 442 330" stroke="#B9975B" stroke-width="1.2" opacity=".65"/>
+    <path d="M429 270C444 262 457 269 456 282C454 294 440 298 432 289" stroke="#B9975B" stroke-width="1.4"/>
+    <path d="M446 310C461 304 472 313 469 325C465 336 452 337 445 328" stroke="#B9975B" stroke-width="1.4"/>
+  </g>
+  <path d="M0 760V310C0 145 134 20 300 20C466 20 600 145 600 310V760" stroke="#B9975B" stroke-opacity=".5"/>
+  <rect width="600" height="760" filter="url(#m3grain)"/>
+</svg>
